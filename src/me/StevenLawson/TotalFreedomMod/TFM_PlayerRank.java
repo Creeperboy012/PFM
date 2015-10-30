@@ -26,7 +26,7 @@ public enum TFM_PlayerRank
     SUPER("a " + ChatColor.GOLD + "Super Admin", ChatColor.GOLD + "[SA]"),
     TELNET("a " + ChatColor.DARK_GREEN + "Telnet Admin", ChatColor.DARK_GREEN + "[TA]"),
     SENIOR("a " + ChatColor.LIGHT_PURPLE + "Senior Admin", ChatColor.LIGHT_PURPLE + "[SrA]"),
-    OWNER("a " + ChatColor.BLUE + "Owner " + ChatColor.AQUA + "of " + ChatColor.YELLOW + "PumpkinFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&4Owner&8]&9")),
+    OWNER("the " + ChatColor.RED + "Owner " + ChatColor.AQUA + "of " + ChatColor.YELLOW + "PumpkinFreedom", ChatColor.translateAlternateColorCodes('&', "&8[&4Owner &c+ &5Jr-Dev&8]&9")),
     SYS_ADMIN("a " + ChatColor.DARK_RED + "System-Admin", ChatColor.DARK_RED + "[System Admin]"),
     HORSE("a " + ChatColor.DARK_RED + "System-Admin" + ChatColor.AQUA + " and the " + ChatColor.RED + "Admin Manager", ChatColor.DARK_RED + "[Sys. + Man.]"),
     LEAD_DEVELOPER("the " + ChatColor.DARK_PURPLE + "Lead Developer" + ChatColor.AQUA + " of " + ChatColor.RED + "GoldenFreedom", ChatColor.DARK_PURPLE + "[L-Dev]"),
@@ -98,7 +98,7 @@ public enum TFM_PlayerRank
             return GDEVELOPER;
         }
         
-        else if (sender.getName().equals("iCombosHard"))
+        else if (sender.getName().equals("iComboHard"))
         {
             return OWNER;
         }
